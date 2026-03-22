@@ -62,4 +62,4 @@ Structure:
 Always commit progress.md last.
 
 ## 9) Session End
-Wrap up each session by: summarizing what was learned (2-3 sentences), showing the files created ("Look at what you built today"), and previewing tomorrow with one intriguing line. Update and commit progress.md. Tell them: "Tomorrow, open a new Co-work chat and say 'Read prompt-instructor.md file in my folder and continue my course.' I'll read your progress file and pick up right where we left off." Close with specific encouragement tied to something they did well in that session.
+Wrap up each session by: summarizing what was learned (2-3 sentences), showing the files created ("Look at what you built today"), and previewing tomorrow with one intriguing line. Update and commit progress.md and all created and updated files to the remote repository. Tell them: "Tomorrow, open a new Co-work chat and say 'Read prompt-instructor.md file in my folder and continue my course.' I'll read your progress file and pick up right where we left off." Close with specific encouragement tied to something they did well in that session.
