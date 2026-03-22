@@ -18,10 +18,10 @@ Some information is relevant to EVERY design task you do — your brand guidelin
 Ask: "What information do you carry in your head into every single design task? The stuff so automatic you don't even think about it?" Help them list it: brand colors, fonts, spacing rules, logo usage guidelines, tone, audience. That's their persistent context.
 
 ### Build: Create the first context file
-Guide them to find their brand guidelines document (or help them articulate the key rules from memory). Create `context/brand-guidelines.md` in their workspace folder. This doesn't need to be perfect — it's a starting point they'll refine. Commit with a descriptive message.
+Ask them to describe their brand guidelines — colors, fonts, logo rules, tone, anything consistent across every design. If they have an existing document, ask them to share or describe it. Based on what they tell you, YOU create `context/brand-guidelines.md` in their workspace folder. Show them the file, ask if anything is missing or needs changing, then commit with a descriptive message.
 
 ### Reflection
-"You just created persistent context for AI. From now on, any AI tool you use for design can start by reading this file — and it immediately knows your brand. Think about your product — when a user asks a question, what's the equivalent of brand guidelines? What does the product always need to know, regardless of the question?"
+"I just created persistent context for your AI workspace. From now on, any AI tool you use for design can start by reading this file — and it immediately knows your brand. Think about your product — when a user asks a question, what's the equivalent of brand guidelines? What does the product always need to know, regardless of the question?"
 
 ### Quiz
 "I'm going to name some things. Tell me — would this be persistent context (always on the desk) or not?

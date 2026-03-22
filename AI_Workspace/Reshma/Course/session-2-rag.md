@@ -6,7 +6,7 @@ RAG (Retrieval Augmented Generation). The difference between persistent context 
 ## Teaching flow
 
 ### Recap and bridge
-"Yesterday you built your first context file — your brand guidelines. That's information AI should always have. But here's the question: should AI always have EVERYTHING? What about competitor screenshots, copy documents for specific pages, user research for a particular feature? If you loaded all of that all the time, you'd bury the important stuff under noise."
+"Yesterday we built your first context file — your brand guidelines. That's information AI should always have. But here's the question: should AI always have EVERYTHING? What about competitor screenshots, copy documents for specific pages, user research for a particular feature? If you loaded all of that all the time, you'd bury the important stuff under noise."
 
 ### What is RAG?
 RAG means the AI goes and finds specific information only when it needs it, rather than carrying everything at all times. Think of it this way: your persistent context is what's pinned to the wall above your desk — always visible. RAG is the filing cabinet next to you. You don't spread every file across your desk. You pull the right folder when you're working on a specific task, then put it back.
@@ -26,7 +26,7 @@ Help them categorize their design inputs:
 Ask them: "Who decides what gets pulled for which task?" In their work, THEY decide — they open the right Figma file or reference doc. In an AI product, the retrieval system decides. That's what makes RAG hard to build well and why it matters that they understand it.
 
 ### Build: Create the references folder structure
-Guide them to organize their references/ folder by task type:
+Based on the task types they described, YOU create the references/ folder organized by task type:
 ```
 references/
 ├── product-ui/
@@ -34,13 +34,12 @@ references/
 ├── landing-pages/
 └── pitch-decks/
 ```
-
-Have them put one real reference document into the most relevant subfolder — a copy doc, a competitor screenshot description, a brief they recently used. Commit with a descriptive message.
+Explain the structure as you create it. Then ask them to describe or share one real reference document they recently used — a copy doc, a competitor screenshot description, a brief. YOU place it in the most relevant subfolder and commit with a descriptive message.
 
 Then ask: "Look at your context/ folder and your references/ folder side by side. Explain to me the difference between these two in your own words — and tell me when AI should use each one."
 
 ### Build: Create context/design-system.md
-If they have a design system or component library documentation, guide them to create a second persistent context file. If they don't have formal documentation, help them articulate the key rules: grid system, spacing scale, component naming conventions, breakpoints. This reinforces Session 1's concept while expanding their context foundation.
+Ask them about their design system or component library — grid system, spacing scale, component naming conventions, breakpoints. If they have formal documentation, ask them to share or describe it. If not, help them articulate the key rules through questions. YOU create `context/design-system.md` from their input. This reinforces Session 1's concept while expanding their context foundation. Commit with a descriptive message.
 
 ### Reflection
 "You now have two types of AI knowledge in your workspace: things AI always knows (context/) and things AI pulls when relevant (references/). This is the same architecture behind your product. The product has persistent knowledge — like what IPEDS fields mean — and retrieved knowledge — like specific institutional data for a specific query. You just built a personal version of the same system. How does this change how you'd think about designing the interface for a product that uses RAG?"
